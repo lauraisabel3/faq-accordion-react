@@ -1,0 +1,9 @@
+@media (min-width: 1200px) {
+    .containerDesktop{
+        width: auto;
+        height: auto;
+        background-color: white;
+        border-radius: 20px;
+        overflow: hidden;
+    }
+}

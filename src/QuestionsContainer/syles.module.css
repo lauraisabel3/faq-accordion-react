@@ -1,0 +1,42 @@
+.questionsContainer{
+    width: 300px;
+    height: auto;
+    margin-top: -4px;
+    padding: 20px;
+    background-color: white;
+    border-radius: 0 0 20px 20px;
+    color: var(--dark-blue);
+}
+
+.questionsContainer h1{
+    text-align: center;
+}
+
+.questionsContainer section{
+    padding: 20px 0;
+}
+
+
+@media (min-width: 1200px) {
+
+    .questionsContainer{
+        width: 400px;
+        height: 400px;
+        display: inline-block;
+        margin: 40px 0 0 -4px;
+        border-radius: 0 20px 20px 0;
+    }
+
+    .questionsContainer h1{
+        margin-top: 40px;
+    }
+
+    .questionsContainer section{
+        margin-top: 40px;
+        padding: 20px 0 0 0;
+    }
+
+    
+}
+
+
